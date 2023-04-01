@@ -1,0 +1,58 @@
+:root {
+  --main-color: rgb(31 127 172);
+}
+* {
+  font-family: system-ui;
+  font-size: 20px;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+}
+.contanier {
+  margin: 0 auto;
+  width: 80%;
+}
+.head {
+  margin: 0 auto;
+  width: 30%;
+}
+.word {
+  position: absolute;
+  margin-left: 5px;
+}
+.sp-book {
+  color: var(--main-color);
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.input {
+  flex-wrap: wrap;
+}
+.btn {
+  background-color: var(--main-color);
+  margin-top: 5vh;
+  border: none;
+  color: white;
+  height: 10vh;
+}
+table {
+  /* border: 2px solid ; */
+  margin-top: 8vh;
+  width: 100%;
+  border-top: 1px solid;
+}
+table thead {
+  font-weight: bold;
+}
+table tbody {
+  background-color: #999;
+}
+.alert-msg {
+  background-color: #43a064;
+  color: white;
+  padding: 10px 40px;
+}
